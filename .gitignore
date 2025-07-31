@@ -1,0 +1,16 @@
+# Ignorar arquivos específicos do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos temporários de sistema
+Thumbs.db
+ehthumbs.db
+
+# Cache do Finder
+.Spotlight-V100
+.Trashes
+
+# Arquivos de backup do editor
+*~
+*.swp
