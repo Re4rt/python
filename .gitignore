@@ -1,17 +1,89 @@
-# Ignorar arquivos específicos do macOS
+# ========================
+# Arquivos gerados por Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ========================
+# Ambiente virtual (não deve ser versionado)
+# ========================
+venv/
+env/
+.venv/
+.env/
+
+# ========================
+# Configurações do VS Code
+# ========================
+.vscode/
+
+# ========================
+# Arquivos de logs, cache e relatórios de teste
+# ========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# pytest
+.cache/
+pytest_cache/
+*.cover
+coverage.*
+.tox/
+nosetests.xml
+coverage.xml
+*.coveragerc
+htmlcov/
+
+# ========================
+# Distribuição e build
+# ========================
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# ========================
+# Arquivos do macOS
+# ========================
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Arquivos temporários de sistema
-Thumbs.db
-ehthumbs.db
-
-# Cache do Finder
 .Spotlight-V100
 .Trashes
+._*
 
-# Arquivos de backup do editor
+# ========================
+# Arquivos de bancos locais
+# ========================
+*.sqlite3
+*.db
+
+# ========================
+# Arquivos de dependência
+# ========================
+poetry.lock
+Pipfile.lock
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========================
+# Arquivos de notebooks Jupyter
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# Arquivos de ambiente/segredos
+# ========================
+.env
+.env.*
+
+# ========================
+# Arquivos temporários
+# ========================
+*.tmp
 *~
-*.swp
-.DS_Store
